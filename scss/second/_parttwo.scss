@@ -1,0 +1,115 @@
+.management{
+    width: 1200px;
+    height: 600px;
+    margin-top: 500px;
+        img{
+            position: absolute;
+            top: 1100px;
+            left: 700px;
+        }
+        .validation{
+            width: 420px;
+            height: 500px;
+            position: absolute;
+            top: 1200px;
+        }
+        
+}
+.customer{
+    position: absolute;
+    width: 1100px;
+    height: 600px;
+    margin-top: 100px;
+        img{
+            position: absolute;
+        }
+        .easler{
+            width: 450px;
+            height: 450px;
+            margin-left: 700px;
+            position: absolute;
+            margin-top: 50px;
+        }
+        .yellow{
+            width: 400px;
+            height: 80px;
+                .sariq{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 15px;
+                    background-color: yellow;
+                    display: inline-block;
+                        svg{
+                            width: 20px;
+                            height: 20px;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                        }
+                }
+                p{
+                    position: absolute;
+                    top: 160px;
+                    left: 70px;
+                }
+                
+        }
+        .red{
+            width: 400px;
+            height: 80px; 
+            .qizil{
+                width: 40px;
+                height: 40px;
+                border-radius: 15px;
+                background-color: red;
+                display: inline-block;
+                svg{
+                    width: 20px;
+                    height: 20px;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                }
+            }
+            p{
+                position: absolute;
+                top: 235px;
+                left: 70px;
+            }
+        }
+
+        .blue{
+            width: 400px;
+            height: 80px; 
+            .kuk{
+                width: 40px;
+                height: 40px;
+                border-radius: 15px;
+                background-color: blue;
+                display: inline-block;
+                svg{
+                    width: 20px;
+                    height: 20px;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                }
+            }
+            p{
+                position: absolute;
+                top: 317px;
+                left: 70px;
+            }
+        }
+}
+.collaborative{
+    width: 1200px;
+    height: 600px;
+    margin-top: 700px;
+        img{
+            margin-left: 600px;
+        }
+        .success{
+            width: 420px;
+            height: 500px;
+            position: absolute;
+            top: 2370px;
+        }
+    }

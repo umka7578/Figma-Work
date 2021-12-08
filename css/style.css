@@ -1,0 +1,532 @@
+.management {
+  width: 1200px;
+  height: 600px;
+  margin-top: 500px;
+}
+.management img {
+  position: absolute;
+  top: 1100px;
+  left: 700px;
+}
+.management .validation {
+  width: 420px;
+  height: 500px;
+  position: absolute;
+  top: 1200px;
+}
+
+.customer {
+  position: absolute;
+  width: 1100px;
+  height: 600px;
+  margin-top: 100px;
+}
+.customer img {
+  position: absolute;
+}
+.customer .easler {
+  width: 450px;
+  height: 450px;
+  margin-left: 700px;
+  position: absolute;
+  margin-top: 50px;
+}
+.customer .yellow {
+  width: 400px;
+  height: 80px;
+}
+.customer .yellow .sariq {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: yellow;
+  display: inline-block;
+}
+.customer .yellow .sariq svg {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.customer .yellow p {
+  position: absolute;
+  top: 160px;
+  left: 70px;
+}
+.customer .red {
+  width: 400px;
+  height: 80px;
+}
+.customer .red .qizil {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: red;
+  display: inline-block;
+}
+.customer .red .qizil svg {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.customer .red p {
+  position: absolute;
+  top: 235px;
+  left: 70px;
+}
+.customer .blue {
+  width: 400px;
+  height: 80px;
+}
+.customer .blue .kuk {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: blue;
+  display: inline-block;
+}
+.customer .blue .kuk svg {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.customer .blue p {
+  position: absolute;
+  top: 317px;
+  left: 70px;
+}
+
+.collaborative {
+  width: 1200px;
+  height: 600px;
+  margin-top: 700px;
+}
+.collaborative img {
+  margin-left: 600px;
+}
+.collaborative .success {
+  width: 420px;
+  height: 500px;
+  position: absolute;
+  top: 2370px;
+}
+
+.quick {
+  display: inline-block;
+  width: 1100px;
+  height: 500px;
+}
+.quick .avatar {
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 150px;
+  height: 80px;
+  display: flex;
+}
+.quick .avatar p {
+  padding: 8px;
+  margin: 20px;
+  background-color: #d4e7e3;
+  border-radius: 30px;
+}
+.quick .avatar1 {
+  position: absolute;
+  width: 400px;
+  left: 720px;
+  top: 3020px;
+  height: 80px;
+  display: flex;
+}
+.quick .avatar1 p {
+  padding: 8px;
+  margin: 20px;
+  background-color: #d4e7e3;
+  border-radius: 30px;
+}
+.quick .avatar2 {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 150px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+}
+.quick .avatar2 p {
+  padding: 8px;
+  margin: 20px;
+  background-color: #d4e7e3;
+  border-radius: 30px;
+}
+.quick .avatar3 {
+  position: absolute;
+  left: 720px;
+  top: 3122px;
+  width: 400px;
+  height: 80px;
+  display: flex;
+}
+.quick .avatar3 p {
+  padding: 8px;
+  margin: 20px;
+  background-color: #d4e7e3;
+  border-radius: 30px;
+}
+.quick button {
+  margin-top: 150px;
+}
+
+.images {
+  width: 1100px;
+  height: 100px;
+  margin: 40px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.pictures .card {
+  border: 1px solid grey;
+  transition: 0.4s ease all;
+}
+.pictures .card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.rain {
+  position: absolute;
+  margin-top: 350px;
+  width: 1100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.rain .round {
+  width: 20px;
+  height: 20px;
+  background-color: #cec5c5;
+  border-radius: 50%;
+  border: 1px solod #b8b4b4;
+  margin: 10px;
+  transition: 0.4s ease all;
+}
+.rain .round:hover {
+  background-color: #02897a;
+}
+
+.price {
+  position: absolute;
+  top: 4000px;
+  width: 1100px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.booking {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  position: absolute;
+  top: 4100px;
+}
+
+.clients {
+  position: absolute;
+  top: 4700px;
+  width: 1100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.sailing {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  position: absolute;
+  top: 4850px;
+}
+
+.frame {
+  position: absolute;
+  top: 5200px;
+}
+
+.footer {
+  width: 1200px;
+  height: 200px;
+  position: absolute;
+  top: 5700px;
+}
+.footer .media {
+  width: 300px;
+  height: 100%;
+}
+.footer .media h3 {
+  color: #04155f;
+}
+.footer .media svg {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  color: #02897a;
+}
+.footer .media svg:hover {
+  opacity: 0.5;
+}
+.footer .recource {
+  width: 300px;
+  height: 100%;
+  margin-left: 300px;
+  position: absolute;
+  top: 0px;
+}
+.footer .recource p {
+  padding-left: 60px;
+}
+.footer .recource a {
+  padding: 60px;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+.footer .legal {
+  width: 200px;
+  height: 100%;
+  margin-left: 600px;
+  position: absolute;
+  top: 0px;
+}
+.footer .legal p {
+  padding-left: 40px;
+}
+.footer .legal a {
+  padding: 40px;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+.footer .enter {
+  width: 200px;
+  height: 100%;
+  margin-left: 800px;
+  position: absolute;
+  top: 0px;
+}
+.footer .enter input {
+  width: 200px;
+  height: 40px;
+  border: 1px solid grey;
+}
+
+.header {
+  height: 80px;
+  width: 1200px;
+  left: 0px;
+  top: 80px;
+  border-radius: 0px;
+}
+.header .pcl {
+  position: absolute;
+  font-size: 28px;
+  width: 122px;
+  left: 202px;
+  top: 23px;
+  color: #04155f;
+}
+.header li {
+  display: flex;
+  float: right;
+  padding: 20px;
+}
+.header li img:hover {
+  opacity: 0.5;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+.header li a {
+  text-decoration: none;
+  color: #b1aeae;
+  font-size: 18px;
+}
+.header li a:hover {
+  color: #132557;
+  transition: 0.2s ease all;
+}
+.header li button {
+  padding: 2px 10px;
+  border: 1px solid #c9c9f5;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid #02897a;
+}
+.header li button:hover {
+  background-color: #02897a;
+  transition: 0.2s ease all;
+}
+.header img {
+  width: 20px;
+  height: 20px;
+}
+
+.speed {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 200px;
+  left: 130px;
+}
+.speed h2 {
+  padding-bottom: 20px;
+}
+.speed button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border-style: none;
+  color: white;
+  font-weight: bolder;
+  background-color: #02897a;
+}
+.speed button:hover {
+  background-color: #099e79;
+  transition: 0.2s ease all;
+}
+.speed a {
+  position: absolute;
+  top: 220px;
+  left: 150px;
+  color: #02897a;
+}
+.speed a svg {
+  width: 25px;
+  height: 25px;
+}
+.speed a:hover {
+  color: #099e79;
+  transition: 0.2s ease all;
+}
+
+.group {
+  position: absolute;
+  left: 650px;
+}
+
+.build {
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  top: 740px;
+  left: 500px;
+}
+.build h2 {
+  font-weight: bolder;
+}
+
+#networks {
+  width: 1200px;
+  height: 400px;
+  margin-left: 10px;
+  position: relative;
+  top: 750px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+#networks .telegram {
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+  margin: 40px;
+  transition: 0.4s ease all;
+}
+#networks .telegram:hover {
+  cursor: pointer;
+}
+#networks .telegram:hover .graph {
+  transform: scale(1.5);
+}
+#networks .telegram .graph {
+  width: 50px;
+  height: 50px;
+  background-color: #02897a;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+#networks .survey {
+  width: 400px;
+  height: 200px;
+  margin: 40px;
+}
+#networks .survey:hover {
+  cursor: pointer;
+}
+#networks .survey:hover .design {
+  transform: scale(1.5);
+  transition-duration: 0.3s;
+  transition: 0.3s ease all;
+}
+#networks .survey .design {
+  width: 50px;
+  height: 50px;
+  background-color: #00aeff;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+#networks .love {
+  width: 400px;
+  height: 200px;
+  margin: 40px;
+}
+#networks .love:hover {
+  cursor: pointer;
+}
+#networks .love:hover .performance {
+  transform: scale(1.5);
+  transition-duration: 0.3s;
+  transition: 0.3s ease all;
+}
+#networks .love .performance {
+  width: 50px;
+  height: 50px;
+  background-color: #8b09be;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+#networks .love .performance svg {
+  width: 20px;
+  height: 20px;
+  margin: 15px;
+}
+#networks .time {
+  width: 400px;
+  height: 200px;
+  margin: 40px;
+}
+#networks .time:hover {
+  cursor: pointer;
+}
+#networks .time:hover .second {
+  transform: scale(1.5);
+  transition-duration: 0.3s;
+  transition: 0.3s ease all;
+}
+#networks .time .second {
+  width: 50px;
+  height: 50px;
+  background-color: #ff3300;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+#networks .time .second svg {
+  margin: 15px;
+}
+#networks button {
+  margin-top: 220px;
+  position: absolute;
+  left: 450px;
+}
+
+/*# sourceMappingURL=style.css.map */

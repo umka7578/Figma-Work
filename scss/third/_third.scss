@@ -1,0 +1,208 @@
+.quick{
+    display: inline-block;
+    width: 1100px;
+    height: 500px;
+        .avatar{
+            width:400px;
+            margin-top: 30px;
+            margin-left: 150px;
+            height: 80px;
+            display: flex;
+                p{
+                    padding: 8px;
+                    margin: 20px;
+                    background-color: rgb(212, 231, 227);
+                    border-radius: 30px;
+                }
+        }
+
+        .avatar1{
+            position: absolute;
+            width:400px;
+            left: 720px;
+            top: 3020px;
+            height: 80px;
+            display: flex;
+                p{
+                    padding: 8px;
+                    margin: 20px;
+                    background-color: rgb(212, 231, 227);
+                    border-radius: 30px;
+                }
+        }
+
+        .avatar2{
+            width:400px;
+            margin-top: 20px;
+            margin-left: 150px;
+            height: 80px;
+            display: flex;
+            position: absolute;
+                p{
+                    padding: 8px;
+                    margin: 20px;
+                    background-color: rgb(212, 231, 227);
+                    border-radius: 30px;
+                }
+        }
+
+        .avatar3{
+            position: absolute;
+            left: 720px;
+            top: 3122px;
+            width:400px;
+            height: 80px;
+            display: flex;
+                p{
+                    padding:8px;
+                    margin: 20px;
+                    background-color: rgb(212, 231, 227);
+                    border-radius: 30px;
+                }
+        }
+        button{
+            margin-top: 150px;
+        }
+    }
+    .images{
+        width: 1100px;
+        height: 100px;
+        margin: 40px;
+    }
+
+    .pictures{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        margin-bottom: 20px;
+            .card{
+                border: 1px solid grey;
+                transition: .4s ease all;
+                    &:hover{
+                        cursor: pointer;
+                        transform: scale(1.1);
+                    }
+            }
+    }
+    .rain{
+        position: absolute;
+        margin-top: 350px;
+        width: 1100px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+            .round{
+                width: 20px;
+                height: 20px;
+                background-color: rgb(206, 197, 197);
+                border-radius: 50%;
+                border: 1px solod rgb(184, 180, 180);
+                margin: 10px;
+                transition: .4s ease all;
+                    &:hover{
+                        background-color: rgba(2, 137, 122, 1);
+                       
+                    }
+            }
+    }
+    .price{
+        position: absolute;
+        top: 4000px;
+        width: 1100px;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+    .booking{
+        display: flex;
+        justify-content: space-around;
+        width: 1200px;
+        position: absolute;
+        top: 4100px;
+    }
+    .clients{
+        position: absolute;
+        top: 4700px;
+        width: 1100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    .sailing{
+        display: flex;
+        justify-content: space-around;
+        width: 1200px;
+        position: absolute;
+        top: 4850px;
+    }
+    .frame{
+        position: absolute;
+        top: 5200px;
+    }
+
+    .footer{
+        width: 1200px;
+        height: 200px;
+        position: absolute;
+        top: 5700px;
+            .media{
+                width: 300px;
+                height: 100%;
+                    h3{
+                        color: rgb(4, 21, 95);
+                    }
+                    svg{
+                        width: 30px;
+                        height: 30px;
+                        margin: 10px;
+                        color: rgba(2, 137, 122, 1);
+                            &:hover{
+                                opacity: .5;
+                            }
+                    }
+                    
+            }
+            .recource{
+                width: 300px;
+                height: 100%;
+                margin-left: 300px;
+                position: absolute; 
+                top:0px; 
+                    p{
+                        padding-left: 60px;
+                    }
+                    a{
+                        padding: 60px;
+                        font-size: 14px;
+                        text-decoration: none;
+                        color: black;
+                    }     
+            }
+            .legal{
+                width: 200px;
+                height: 100%;
+                margin-left: 600px;
+                position: absolute; 
+                top:0px; 
+                    p{
+                        padding-left: 40px;
+                    }
+                    a{
+                        padding: 40px;
+                        font-size: 14px;
+                        text-decoration: none;
+                        color: black;
+                    }     
+            }
+
+            .enter{
+                width: 200px;
+                height: 100%;
+                margin-left: 800px;
+                position: absolute; 
+                top:0px;
+                    input{
+                        width: 200px;
+                        height: 40px;
+                        border: 1px solid grey;
+                    } 
+            }
+    }
