@@ -63,11 +63,71 @@
         button{
             margin-top: 150px;
         }
+
+        @media only screen and (max-width:769px){
+            width: 550px;
+            height: 400px;
+            font-size: 13px;
+            button{
+                margin-top: 150px;
+                font-size: 10px;
+            }
+            .avatar{
+                width:400px;
+                margin-top: 30px;
+                margin-left: 10px;
+                height: 50px;
+                    p{
+                        padding: 10px;
+                        margin: 7px;
+                    }
+            }
+    
+            .avatar1{
+                position: absolute;
+                width:400px;
+                left: 380px;
+                top: 3905px;
+                height: 50px;
+                    p{
+                        padding: 8px;
+                        margin: 7px;
+                    }
+            }
+    
+            .avatar2{
+                width:400px;
+                margin-top: 20px;
+                margin-left: 15px;
+                height: 50px;
+                display: flex;
+                position: absolute;
+                    p{
+                        padding: 8px;
+                        margin: 7px;
+                    }
+            }
+    
+            .avatar3{
+                left: 380px;
+                top: 3980px;
+                width:400px;
+                height: 50px;
+                    p{
+                        padding:8px;
+                        margin: 7px;
+                    }
+            }
+        }
     }
     .images{
         width: 1100px;
         height: 100px;
         margin: 40px;
+        @media only screen and (max-width:769px){
+            width: 550px;
+
+        }
     }
 
     .pictures{
@@ -82,6 +142,9 @@
                         cursor: pointer;
                         transform: scale(1.1);
                     }
+            }
+            @media only screen and (max-width:769px){
+                justify-content: flex-start;
             }
     }
     .rain{
@@ -104,6 +167,9 @@
                        
                     }
             }
+            @media only screen and (max-width:769px) {
+                width: 550px;                
+            }
     }
     .price{
         position: absolute;
@@ -111,6 +177,10 @@
         width: 1100px;
         height: 70px;
         margin-bottom: 20px;
+        @media only screen and (max-width:769px) {
+            top: 4800px;
+            width: 550px;
+        }
     }
     .booking{
         display: flex;
@@ -118,6 +188,10 @@
         width: 1200px;
         position: absolute;
         top: 4100px;
+        @media only screen and (max-width:769px) {
+            width: 550px;
+            top: 4890px;  
+        }
     }
     .clients{
         position: absolute;
@@ -125,17 +199,32 @@
         width: 1100px;
         height: 100px;
         margin-bottom: 20px;
+        @media only screen and (max-width:769px) {
+            top: 5500px;
+            width: 550px;            
+        }
     }
     .sailing{
         display: flex;
         justify-content: space-around;
         width: 1200px;
+        left: 80px;
         position: absolute;
         top: 4850px;
+        @media only screen and (max-width:769px) {
+            top: 5640px;
+            width: 400px;  
+            height: 120px;
+            left: 150px;
+        }
     }
     .frame{
         position: absolute;
         top: 5200px;
+        @media only screen and (max-width:769px) {
+            width: 550px;
+            top: 5850px;  
+        }
     }
 
     .footer{
@@ -146,6 +235,7 @@
             .media{
                 width: 300px;
                 height: 100%;
+                margin-left: 50px;
                     h3{
                         color: rgb(4, 21, 95);
                     }
@@ -168,6 +258,7 @@
                 top:0px; 
                     p{
                         padding-left: 60px;
+                        font-weight: bolder;
                     }
                     a{
                         padding: 60px;
@@ -180,10 +271,11 @@
                 width: 200px;
                 height: 100%;
                 margin-left: 600px;
-                position: absolute; 
+                position: absolute;
                 top:0px; 
                     p{
                         padding-left: 40px;
+                        font-weight: bolder;
                     }
                     a{
                         padding: 40px;
@@ -204,5 +296,20 @@
                         height: 40px;
                         border: 1px solid grey;
                     } 
+            }
+            @media only screen and (max-width:769px) {
+                width: 550px;
+                top: 6200px;
+                .legal{
+                    margin-left:0px;
+                    top: 170px;
+                }  
+                .enter{
+                    top: 170px;
+                    margin-left: 330px;
+                }
+                .text-center{
+                    visibility: hidden;
+                }
             }
     }

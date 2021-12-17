@@ -14,6 +14,15 @@
   position: absolute;
   top: 1200px;
 }
+@media only screen and (max-width: 769px) {
+  .management img {
+    top: 1200px;
+    left: 80px;
+  }
+  .management .validation {
+    top: 1800px;
+  }
+}
 
 .customer {
   position: absolute;
@@ -97,6 +106,16 @@
   top: 317px;
   left: 70px;
 }
+@media only screen and (max-width: 769px) {
+  .customer {
+    margin-top: 1000px;
+    width: 550px;
+  }
+  .customer .easler {
+    top: 600px;
+    margin-left: 0px;
+  }
+}
 
 .collaborative {
   width: 1200px;
@@ -111,6 +130,18 @@
   height: 500px;
   position: absolute;
   top: 2370px;
+}
+@media only screen and (max-width: 769px) {
+  .collaborative {
+    width: 550px;
+    margin-top: 2000px;
+  }
+  .collaborative img {
+    visibility: hidden;
+  }
+  .collaborative .success {
+    top: 3310px;
+  }
 }
 
 .quick {
@@ -176,11 +207,70 @@
 .quick button {
   margin-top: 150px;
 }
+@media only screen and (max-width: 769px) {
+  .quick {
+    width: 550px;
+    height: 400px;
+    font-size: 13px;
+  }
+  .quick button {
+    margin-top: 150px;
+    font-size: 10px;
+  }
+  .quick .avatar {
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 50px;
+  }
+  .quick .avatar p {
+    padding: 10px;
+    margin: 7px;
+  }
+  .quick .avatar1 {
+    position: absolute;
+    width: 400px;
+    left: 380px;
+    top: 3905px;
+    height: 50px;
+  }
+  .quick .avatar1 p {
+    padding: 8px;
+    margin: 7px;
+  }
+  .quick .avatar2 {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+  }
+  .quick .avatar2 p {
+    padding: 8px;
+    margin: 7px;
+  }
+  .quick .avatar3 {
+    left: 380px;
+    top: 3980px;
+    width: 400px;
+    height: 50px;
+  }
+  .quick .avatar3 p {
+    padding: 8px;
+    margin: 7px;
+  }
+}
 
 .images {
   width: 1100px;
   height: 100px;
   margin: 40px;
+}
+@media only screen and (max-width: 769px) {
+  .images {
+    width: 550px;
+  }
 }
 
 .pictures {
@@ -196,6 +286,11 @@
 .pictures .card:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+@media only screen and (max-width: 769px) {
+  .pictures {
+    justify-content: flex-start;
+  }
 }
 
 .rain {
@@ -218,6 +313,11 @@
 .rain .round:hover {
   background-color: #02897a;
 }
+@media only screen and (max-width: 769px) {
+  .rain {
+    width: 550px;
+  }
+}
 
 .price {
   position: absolute;
@@ -225,6 +325,12 @@
   width: 1100px;
   height: 70px;
   margin-bottom: 20px;
+}
+@media only screen and (max-width: 769px) {
+  .price {
+    top: 4800px;
+    width: 550px;
+  }
 }
 
 .booking {
@@ -234,6 +340,12 @@
   position: absolute;
   top: 4100px;
 }
+@media only screen and (max-width: 769px) {
+  .booking {
+    width: 550px;
+    top: 4890px;
+  }
+}
 
 .clients {
   position: absolute;
@@ -242,18 +354,39 @@
   height: 100px;
   margin-bottom: 20px;
 }
+@media only screen and (max-width: 769px) {
+  .clients {
+    top: 5500px;
+    width: 550px;
+  }
+}
 
 .sailing {
   display: flex;
   justify-content: space-around;
   width: 1200px;
+  left: 80px;
   position: absolute;
   top: 4850px;
+}
+@media only screen and (max-width: 769px) {
+  .sailing {
+    top: 5640px;
+    width: 400px;
+    height: 120px;
+    left: 150px;
+  }
 }
 
 .frame {
   position: absolute;
   top: 5200px;
+}
+@media only screen and (max-width: 769px) {
+  .frame {
+    width: 550px;
+    top: 5850px;
+  }
 }
 
 .footer {
@@ -265,6 +398,7 @@
 .footer .media {
   width: 300px;
   height: 100%;
+  margin-left: 50px;
 }
 .footer .media h3 {
   color: #04155f;
@@ -287,6 +421,7 @@
 }
 .footer .recource p {
   padding-left: 60px;
+  font-weight: bolder;
 }
 .footer .recource a {
   padding: 60px;
@@ -303,6 +438,7 @@
 }
 .footer .legal p {
   padding-left: 40px;
+  font-weight: bolder;
 }
 .footer .legal a {
   padding: 40px;
@@ -322,7 +458,33 @@
   height: 40px;
   border: 1px solid grey;
 }
+@media only screen and (max-width: 769px) {
+  .footer {
+    width: 550px;
+    top: 6200px;
+  }
+  .footer .legal {
+    margin-left: 0px;
+    top: 170px;
+  }
+  .footer .enter {
+    top: 170px;
+    margin-left: 330px;
+  }
+  .footer .text-center {
+    visibility: hidden;
+  }
+}
 
+@media only screen and (max-width: 600px) {
+  header {
+    width: 600px;
+    background-color: blueviolet;
+  }
+  header ul {
+    visibility: hidden;
+  }
+}
 .header {
   height: 80px;
   width: 1200px;
@@ -373,6 +535,19 @@
   height: 20px;
 }
 
+@media only screen and (max-width: 769px) {
+  .header {
+    width: 550px;
+  }
+  .header ul {
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 769px) and (max-width: 769px) {
+  .group {
+    visibility: hidden;
+  }
+}
 .speed {
   width: 400px;
   height: 400px;
@@ -426,10 +601,17 @@
   font-weight: bolder;
 }
 
+@media only screen and (max-width: 769px) {
+  .build {
+    left: 130px;
+    top: 550px;
+    margin-bottom: 0px;
+  }
+}
 #networks {
   width: 1200px;
   height: 400px;
-  margin-left: 10px;
+  margin-left: 70px;
   position: relative;
   top: 750px;
   display: flex;
@@ -527,6 +709,43 @@
   margin-top: 220px;
   position: absolute;
   left: 450px;
+}
+
+@media only screen and (max-width: 760px) {
+  #networks {
+    width: 550px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 370px;
+    font-size: 12px;
+  }
+  #networks button {
+    margin-top: 290px;
+    margin-left: 0px;
+  }
+  #networks .telegram {
+    width: 200px;
+    height: 400px;
+    margin: 20px;
+  }
+  #networks .survey {
+    width: 200px;
+    height: 400px;
+    margin: 20px;
+  }
+  #networks .love {
+    width: 200px;
+    height: 400px;
+    margin: 20px;
+  }
+  #networks .time {
+    width: 200px;
+    height: 400px;
+    margin: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,6 @@
 @use "second/parttwo";
 @use "third/third";
+@use "media/media";
 
 .header{
     height: 80px;
@@ -51,6 +52,19 @@
             height: 20px;
         }
 
+}
+@media only screen and (max-width:769px){
+    .header{
+        width: 550px;
+            ul{
+                opacity: 0;
+            }
+    }
+@media only screen and (max-width:769px){
+    .group{
+        visibility: hidden;
+    }
+}
 }
 .speed{
     width: 400px;
@@ -104,10 +118,18 @@
             font-weight: bolder;
         }
 }
+@media only screen and (max-width:769px){
+    .build{
+        left:130px;
+        top: 550px;
+        margin-bottom: 0px;
+    }
+}
+
 #networks{
     width: 1200px;
     height: 400px;
-    margin-left: 10px;
+    margin-left: 70px;
     position: relative;
     top:750px;
     display: flex;
@@ -215,4 +237,40 @@
             position:absolute;
             left: 450px;
         }
+}
+@media only screen and (max-width:760px){
+    #networks{
+        width: 550px;
+        display: flex;
+        flex-wrap: nowrap;
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 370px;
+        font-size: 12px;
+        button{
+            margin-top: 290px;
+            margin-left: 0px;
+        }
+            .telegram{
+                width: 200px;
+                height: 400px;
+                margin: 20px;
+            }
+            .survey{
+                width: 200px;
+                height: 400px;
+                margin: 20px;
+            }
+            .love{
+                width: 200px;
+                height: 400px;
+                margin: 20px;
+            }
+            .time{
+                width: 200px;
+                height: 400px;
+                margin: 20px;
+            }
+    }
 }
